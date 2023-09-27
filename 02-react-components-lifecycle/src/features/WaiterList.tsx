@@ -16,7 +16,7 @@ export function WaiterList({ waiters }: WaiterListViewModel) : React.ReactElemen
                 </tr>
             </thead>
             <tbody>
-                {waiters.map(w =>  <WaiterItem itemInfo={w} key={w.id} />)}
+                {waiters.map(w => <WaiterItem itemInfo={w} key={w.id} />)}
             </tbody>
         </table>
     );
