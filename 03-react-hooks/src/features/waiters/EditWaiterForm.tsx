@@ -26,18 +26,18 @@ export function EditWaiterForm({ waiterToEdit, onWaiterSubmit } : EditWaiterForm
     }
 
     return (
-    <form onSubmit={onFormSubmit}>
-        <div>
-            <label htmlFor="name">First name</label>
-            <input value={firstName} onChange={e => setFirstName(e.target.value)} type="text" id="name" />
-        </div>
+        <form onSubmit={onFormSubmit}>
+            <div>
+                <label htmlFor="name">First name</label>
+                <input value={firstName} onChange={e => setFirstName(e.target.value)} type="text" id="name" />
+            </div>
 
-        <div>
-            <label htmlFor="pnumber">Phone number</label>
-            <input value={phone} onChange={e => setPhone(e.target.value)} type="tel" id="pnumber"
-                   placeholder="XXX-XXX-XX-XX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
-        </div>
-        <button type="submit">Submit</button>
-    </form>
-)
+            <div>
+                <label htmlFor="pnumber">Phone number</label>
+                <input value={phone} onChange={e => setPhone(e.target.value)} type="tel" id="pnumber"
+                       placeholder="XXX-XXX-XX-XX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    )
 }
