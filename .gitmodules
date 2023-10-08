@@ -1,0 +1,3 @@
+[submodule "mock-api-server"]
+	path = mock-api-server
+	url = git@github.com:volodymyr-kryvoshapov/mock-api-server.git
