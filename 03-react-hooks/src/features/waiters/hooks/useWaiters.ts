@@ -50,14 +50,11 @@ export function useWaiters() {
         }
     }
 
-
-    const onWaiterEdit = (item : WaiterItemInfoI) => setWaiterToEdit(item);
-
     return {
         waiterToEdit,
         waiterList,
         onWaiterSubmit,
         onWaiterDelete: deleteWaiter,
-        onWaiterEdit,
+        onWaiterEdit: setWaiterToEdit,
     }
 }
