@@ -26,18 +26,6 @@ export function EditWaiterForm()
         };
         // @ts-ignore
         await dispatch(saveItem(newWaiter))
-        // setError('')
-        // setLoading(true)
-        // try {
-        //     // @ts-ignore
-        //     await dispatch(saveItem(newWaiter))
-        // }
-        // catch (e: any) {
-        //     setError(e.message)
-        // }
-        // finally {
-        //     setLoading(false)
-        // }
     }
 
     return (

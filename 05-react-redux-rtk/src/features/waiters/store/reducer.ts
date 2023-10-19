@@ -80,7 +80,6 @@ export const waiterSlice = createSlice({
             state.waiterList = action.payload
         },
         setWaiterListActionError: (state: WaiterAppStateI, action: PayloadAction<Error>) => {
-            state.waiterList = [];
             state.waiterListStatus.loading = false;
             state.waiterListStatus.error = action.payload;
         }

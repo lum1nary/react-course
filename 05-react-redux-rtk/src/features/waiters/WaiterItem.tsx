@@ -30,7 +30,6 @@ export function WaiterItem ({ itemInfo } : WaiterItemViewPropsI)
             finally {
                 setLoading(false)
             }
-
         }
     }
 

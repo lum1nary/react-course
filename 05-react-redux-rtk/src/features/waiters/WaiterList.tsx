@@ -14,7 +14,7 @@ export function WaiterList() : React.ReactElement {
 
         // @ts-ignore
         dispatch(getList())
-    }, [getList, dispatch]);
+    }, [dispatch]);
 
     return (
         <>
