@@ -1,5 +1,8 @@
 import React from 'react';
+import {Box, CircularProgress} from "@mui/material";
 
 export function Loading(): React.ReactElement {
-    return <div>Loading...</div>;
+    return <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+        <CircularProgress />
+    </Box>;
 }
