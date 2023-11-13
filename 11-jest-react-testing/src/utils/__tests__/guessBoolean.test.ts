@@ -1,4 +1,4 @@
-import {guessBoolean} from '../guessBoolean'
+import {guessBoolean} from '../../utils'
 
 describe('guessBoolean', () => {
     describe('positive', () => {
